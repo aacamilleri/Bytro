@@ -8,7 +8,7 @@ pragma solidity ^0.8.2;
 import "./EIP20Interface.sol";
 
 
-contract EIP20 is EIP20Interface {
+contract Bytro is EIP20Interface {
 
     uint256 constant private MAX_UINT256 = 2**256 - 1;
     mapping (address => uint256) public balances;
@@ -23,7 +23,7 @@ contract EIP20 is EIP20Interface {
     uint8 public decimals;                //How many decimals to show.
     string public symbol;                 //An identifier: eg SBX
 
-    function EIP20(
+    function Bytro(
         uint256 _initialAmount,
         string _tokenName,
         uint8 _decimalUnits,
