@@ -1,5 +1,5 @@
 # Bytro
-Bytro is a Decentralized Application build on Ethereum and Solidity Smart Contracts
+Bytro is a Decentralized Application built using Ethereum and Solidity Smart Contracts
 
 Applications Used:
 * Ethereum
